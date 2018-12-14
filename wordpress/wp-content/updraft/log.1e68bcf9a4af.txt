@@ -1,0 +1,134 @@
+0128.170 (1) Opened log file at time: Fri, 14 Dec 2018 08:36:38 +0000 on http://localhost/my-site-wordpress/wordpress
+0128.184 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.1.25-1+ubuntu16.04.1+deb.sury.org+1 (apache2handler, Linux yesweweb-12 4.15.0-42-generic #45~16.04.1-Ubuntu SMP Mon Nov 19 13:02:27 UTC 2018 x86_64) MySQL: 5.7.24-0ubuntu0.16.04.1 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.3M | 2M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0128.197 (1) Free space on disk containing Updraft's temporary directory: 6256.5 MB
+0128.207 (1) Backup run: resumption=1, nonce=1e68bcf9a4af, begun at=1544776470 (128s ago), job type=backup, previous check-in=7.2s
+0128.224 (1) Scheduling a resumption (2) after 300 seconds (1544776898) in case this run gets aborted
+0128.262 (1) Checking if we have a zip executable available
+0128.270 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0128.292 (1) Creation of backups of directories: already finished
+0128.308 (1) Saving backup status to database (elements: 8)
+0128.333 (1) Database dump (WordPress DB): Creation was completed already
+0128.370 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0128.387 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0128.415 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0128.425 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-others.zip: others: This file has not yet been successfully uploaded: will queue
+0128.442 (1) backup_2018-12-14-0934_Kitchen_1e68bcf9a4af-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/my-site-wordpress/wordpress/wp-content/updraft/backup_2018-12-14-0934_Kitchen_1e68bcf9a4af-db.gz)
+0128.470 (1) Recording as successfully uploaded: backup_2018-12-14-0934_Kitchen_1e68bcf9a4af-db.gz
+0128.495 (1) Saving backup history. Total backup size: Unknown
+0128.537 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0128.550 (1) Cloud backup selection (1/1): email with instance (1/1) (last)
+0128.563 (1) Beginning dispatch of backup to remote (email)
+0128.576 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-plugins.zip: email to: balen...
+0128.979 (1) Mails were not sent successfully
+0128.994 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-themes.zip: email to: balen...
+0129.065 (1) Mails were not sent successfully
+0129.077 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-uploads.zip: email to: balen...
+0129.137 (1) Mails were not sent successfully
+0129.158 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-others.zip: email to: balen...
+0129.172 (1) Mails were not sent successfully
+0129.183 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0129.202 (1) Number of backup sets in history: 1; groups (db): 1
+0129.214 (1) Examining (for databases) backup set with group_id=0, nonce=1e68bcf9a4af, datestamp=1544776470 (Dec 14 2018 08:34:30)
+0129.214 (1) This backup set is the backup set just made, so will not be deleted.
+0129.214 (1) Number of backup sets in history: 1; groups (files): 1
+0129.216 (1) Examining (for files) backup set with nonce=1e68bcf9a4af, datestamp=1544776470 (Dec 14 2018 08:34:30)
+0129.216 (1) This backup set is the backup set just made, so will not be deleted.
+0129.223 (1) This backup set is the backup set just made, so will not be deleted.
+0129.223 (1) This backup set is the backup set just made, so will not be deleted.
+0129.224 (1) This backup set is the backup set just made, so will not be deleted.
+0129.224 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0129.227 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0129.249 (1) Resume backup (1e68bcf9a4af, 1): finish run
+0129.269 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0129.280 (1) No email will/can be sent - the user has not configured an email address.
+0129.289 (1) The backup has not finished; a resumption is scheduled
+0131.790 (1) Opened log file at time: Fri, 14 Dec 2018 08:36:42 +0000 on http://localhost/my-site-wordpress/wordpress
+0131.798 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.1.25-1+ubuntu16.04.1+deb.sury.org+1 (apache2handler, Linux yesweweb-12 4.15.0-42-generic #45~16.04.1-Ubuntu SMP Mon Nov 19 13:02:27 UTC 2018 x86_64) MySQL: 5.7.24-0ubuntu0.16.04.1 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.3M | 2M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0131.806 (1) Free space on disk containing Updraft's temporary directory: 6256.5 MB
+0131.834 (1) Backup run: resumption=1, nonce=1e68bcf9a4af, begun at=1544776470 (132s ago), job type=backup, previous check-in=7.2s
+0131.848 (1) Scheduling a resumption (2) after 300 seconds (1544776902) in case this run gets aborted
+0131.859 (1) Checking if we have a zip executable available
+0131.868 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0131.876 (1) Creation of backups of directories: already finished
+0131.895 (1) Saving backup status to database (elements: 8)
+0131.914 (1) Database dump (WordPress DB): Creation was completed already
+0131.930 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0131.939 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0131.958 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0131.970 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-others.zip: others: This file has not yet been successfully uploaded: will queue
+0131.972 (1) backup_2018-12-14-0934_Kitchen_1e68bcf9a4af-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/my-site-wordpress/wordpress/wp-content/updraft/backup_2018-12-14-0934_Kitchen_1e68bcf9a4af-db.gz)
+0131.980 (1) Recording as successfully uploaded: backup_2018-12-14-0934_Kitchen_1e68bcf9a4af-db.gz
+0131.989 (1) Saving backup history. Total backup size: Unknown
+0132.010 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0132.024 (1) Cloud backup selection (1/1): email with instance (1/1) (last)
+0132.032 (1) Beginning dispatch of backup to remote (email)
+0132.034 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-plugins.zip: email to: balen...
+0132.505 (1) Mails were not sent successfully
+0132.509 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-themes.zip: email to: balen...
+0132.554 (1) Mails were not sent successfully
+0132.556 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-uploads.zip: email to: balen...
+0132.623 (1) Mails were not sent successfully
+0132.641 (1) backup_2018-12-14-0934_Kitchen_f88ce070948d-others.zip: email to: balen...
+0132.654 (1) Mails were not sent successfully
+0132.665 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0132.685 (1) Number of backup sets in history: 1; groups (db): 1
+0132.697 (1) Examining (for databases) backup set with group_id=0, nonce=1e68bcf9a4af, datestamp=1544776470 (Dec 14 2018 08:34:30)
+0132.697 (1) This backup set is the backup set just made, so will not be deleted.
+0132.697 (1) Number of backup sets in history: 1; groups (files): 1
+0132.700 (1) Examining (for files) backup set with nonce=1e68bcf9a4af, datestamp=1544776470 (Dec 14 2018 08:34:30)
+0132.701 (1) This backup set is the backup set just made, so will not be deleted.
+0132.708 (1) This backup set is the backup set just made, so will not be deleted.
+0132.709 (1) This backup set is the backup set just made, so will not be deleted.
+0132.710 (1) This backup set is the backup set just made, so will not be deleted.
+0132.710 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0132.714 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0132.737 (1) Resume backup (1e68bcf9a4af, 1): finish run
+0132.760 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0132.772 (1) No email will/can be sent - the user has not configured an email address.
+0132.780 (1) The backup has not finished; a resumption is scheduled
+4751.957 (2) Opened log file at time: Fri, 14 Dec 2018 09:53:42 +0000 on http://localhost/my-site-wordpress/wordpress
+4751.971 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.1.25-1+ubuntu16.04.1+deb.sury.org+1 (apache2handler, Linux yesweweb-12 4.15.0-42-generic #45~16.04.1-Ubuntu SMP Mon Nov 19 13:02:27 UTC 2018 x86_64) MySQL: 5.7.24-0ubuntu0.16.04.1 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.3M | 4M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: Y LANG: C ZipArchive::addFile: Y
+4751.995 (2) Free space on disk containing Updraft's temporary directory: 6258.2 MB
+4752.020 (2) Backup run: resumption=2, nonce=1e68bcf9a4af, begun at=1544776470 (4752s ago), job type=backup
+4752.029 (2) Long time past since expected resumption time: approx expected=1544776901.4, now=1544781222.4, diff=4321
+4752.042 (2) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+4752.056 (2) Scheduling a resumption (3) after 300 seconds (1544781522) in case this run gets aborted
+4752.065 (2) Checking if we have a zip executable available
+4752.073 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+4752.075 (2) Creation of backups of directories: already finished
+4752.083 (2) Saving backup status to database (elements: 8)
+4752.123 (2) Database dump (WordPress DB): Creation was completed already
+4752.133 (2) backup_2018-12-14-0934_Kitchen_f88ce070948d-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4752.141 (2) backup_2018-12-14-0934_Kitchen_f88ce070948d-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4752.150 (2) backup_2018-12-14-0934_Kitchen_f88ce070948d-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4752.169 (2) backup_2018-12-14-0934_Kitchen_f88ce070948d-others.zip: others: This file has not yet been successfully uploaded: will queue
+4752.181 (2) backup_2018-12-14-0934_Kitchen_1e68bcf9a4af-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/my-site-wordpress/wordpress/wp-content/updraft/backup_2018-12-14-0934_Kitchen_1e68bcf9a4af-db.gz)
+4752.183 (2) Recording as successfully uploaded: backup_2018-12-14-0934_Kitchen_1e68bcf9a4af-db.gz
+4752.199 (2) Saving backup history. Total backup size: Unknown
+4752.226 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+4752.241 (2) Cloud backup selection (1/1): email with instance (1/1) (last)
+4752.248 (2) Beginning dispatch of backup to remote (email)
+4752.250 (2) backup_2018-12-14-0934_Kitchen_f88ce070948d-plugins.zip: email to: balen...
+4753.066 (2) Mails were not sent successfully
+4753.067 (2) backup_2018-12-14-0934_Kitchen_f88ce070948d-themes.zip: email to: balen...
+4753.123 (2) Mails were not sent successfully
+4753.124 (2) backup_2018-12-14-0934_Kitchen_f88ce070948d-uploads.zip: email to: balen...
+4753.203 (2) Mails were not sent successfully
+4753.215 (2) backup_2018-12-14-0934_Kitchen_f88ce070948d-others.zip: email to: balen...
+4753.235 (2) Mails were not sent successfully
+4753.247 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+4753.256 (2) Number of backup sets in history: 1; groups (db): 1
+4753.263 (2) Examining (for databases) backup set with group_id=0, nonce=1e68bcf9a4af, datestamp=1544776470 (Dec 14 2018 08:34:30)
+4753.263 (2) This backup set is the backup set just made, so will not be deleted.
+4753.263 (2) Number of backup sets in history: 1; groups (files): 1
+4753.282 (2) Examining (for files) backup set with nonce=1e68bcf9a4af, datestamp=1544776470 (Dec 14 2018 08:34:30)
+4753.282 (2) This backup set is the backup set just made, so will not be deleted.
+4753.294 (2) This backup set is the backup set just made, so will not be deleted.
+4753.295 (2) This backup set is the backup set just made, so will not be deleted.
+4753.295 (2) This backup set is the backup set just made, so will not be deleted.
+4753.295 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+4753.297 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+4753.308 (2) Resume backup (1e68bcf9a4af, 2): finish run
+4753.319 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4753.350 (2) No email will/can be sent - the user has not configured an email address.
+4753.356 (2) The backup has not finished; a resumption is scheduled
